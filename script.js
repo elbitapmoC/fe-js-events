@@ -1,5 +1,6 @@
+const scrollable = document.getElementById('scrollable');
 const button = document.querySelector('button');
-const scrollable = document.querySelector('#scrollable');
+
 // const abort = new AbortController();
 // button.addEventListener('click', onClick, {
 //     capture: true,
@@ -54,3 +55,9 @@ const scrollable = document.querySelector('#scrollable');
 
 //     console.log('SAFE ZONE, PREP FOR LANDING');
 // })
+
+scrollable.addEventListener('click', event =>{
+    // if(event.target.tagName === 'P'){
+    //     event.target.textContent = 'Clicked!';
+    // }
+});
